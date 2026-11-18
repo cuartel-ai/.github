@@ -1,0 +1,36 @@
+name: Story
+description: "Several tasks built together: a feature, a revamp, a redesign, an audit"
+type: Story
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this exist?
+      placeholder: The problem or goal, and why now.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: What must be true when it's built?
+      placeholder: |
+        What it must do and the constraints it must respect. Not how.
+        "Not: …" lines for tempting exclusions.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance
+      description: How does a tester know it passed?
+      placeholder: Observable checks, run in dev during Testing.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Where's the rest?
+      placeholder: Decisions, docs, canvas frames, Google Docs, discussions.

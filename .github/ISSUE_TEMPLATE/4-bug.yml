@@ -1,0 +1,40 @@
+name: Bug
+description: A defect
+type: Bug
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: Symptom
+      description: What happens, and what should happen instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - dev
+        - staging
+        - prod
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Repro
+      description: Steps and evidence.
+      placeholder: The steps, and the ids, logs or screenshot that show it.
+    validations:
+      required: true
+  - type: textarea
+    id: cause-and-guard
+    attributes:
+      label: Cause and guard
+      description: Filled in on close. Why it happened, and what stops it coming back.
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Where's the rest?
+      placeholder: Decisions, docs, canvas frames, Google Docs, discussions.

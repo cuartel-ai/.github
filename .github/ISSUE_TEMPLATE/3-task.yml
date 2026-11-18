@@ -1,0 +1,30 @@
+name: Task
+description: One brief
+type: Task
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this exist? A task in a story may skip it.
+      placeholder: The problem or goal, and why now.
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes
+      description: What exactly changes in the code?
+      placeholder: A checklist per workspace, deletions included.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance
+      description: How does a tester know it passed? A task in a story is tested by its story's Acceptance.
+      placeholder: Observable checks, run in dev during Testing.
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Where's the rest?
+      placeholder: Decisions, docs, canvas frames, Google Docs, discussions.
