@@ -1,0 +1,31 @@
+name: Deal
+description: A prospect, from first contact to won or lost. Only in cuartel-projects
+type: Deal
+labels: [sales]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Who are they, and what do they need?
+      placeholder: The company, the people we talk to, the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What do we offer?
+      placeholder: Scope, phases and price, once known.
+  - type: textarea
+    id: next-steps
+    attributes:
+      label: Next steps
+      description: What happens next, and who does it?
+      placeholder: "- [ ] Book the demo"
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Where's the rest?
+      placeholder: Drive folder, proposal document, call notes.
