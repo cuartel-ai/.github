@@ -1,5 +1,5 @@
 name: Epic
-description: A version of a product
+description: A version of a product, or an area of ongoing work
 type: Epic
 body:
   - type: textarea
