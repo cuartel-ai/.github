@@ -1,6 +1,7 @@
 name: Task
 description: One brief
 type: Task
+assignees: [nmhernandez10]
 body:
   - type: textarea
     id: context

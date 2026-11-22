@@ -1,6 +1,7 @@
 name: Bug
 description: A defect
 type: Bug
+assignees: [nmhernandez10]
 body:
   - type: textarea
     id: symptom
