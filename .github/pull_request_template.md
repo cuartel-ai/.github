@@ -1,6 +1,6 @@
 Closes #
 
-<!-- "For #" instead, for a task in a story and for a story's draft: the handbook's work tracking, "A story's branch". -->
+<!-- "Part of #" instead, for a story's PR into main: the handbook's work tracking, "Pull requests". -->
 
 ## What changed
 
