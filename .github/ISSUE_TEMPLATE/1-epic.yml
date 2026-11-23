@@ -1,6 +1,7 @@
 name: Epic
 description: A version of a product, or an area of ongoing work
 type: Epic
+assignees: [nmhernandez10]
 body:
   - type: textarea
     id: context

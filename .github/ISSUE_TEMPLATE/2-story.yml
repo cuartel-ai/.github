@@ -1,6 +1,7 @@
 name: Story
 description: "Several tasks built together: a feature, a revamp, a redesign, an audit"
 type: Story
+assignees: [nmhernandez10]
 body:
   - type: textarea
     id: context
